@@ -1,0 +1,30 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+temp_*
+temp-*
+temp.*
+dev_rules*
+repo/
+/test.js
+/test.ts
+# build files
+deno.lock
+# only allow userscript-dist/user.js
+# dist/*
+# !dist/userscript/
+# dist/userscript/*
+# !dist/userscript/immersive-translate.lib.js
+# !dist/userscript/immersive-translate.user.js
+#
+dist/
+
+firefox-dev-profile/
+
+test-config.json
+dev_rules.json
+# misc
+._*
+.DS_Store
+.env
+.Trashes
+.idea/
+.vscode/

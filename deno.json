@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "deno.ns",
+      "dom",
+      "dom.iterable",
+      "dom.asynciterable",
+      "esnext"
+    ],
+    "jsx": "react-jsx",
+    "jsxImportSource": "https://esm.sh/preact@10.11.0"
+  },
+  "lint": {
+    "files": {
+      "exclude": ["dist", "repo"]
+    }
+  },
+
+  "test": {
+    "files": {
+      "exclude": [
+        "node_modules/",
+        "public/",
+        "example",
+        "repo/"
+      ]
+    }
+  }
+}
